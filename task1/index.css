@@ -34,7 +34,7 @@ nav{
 }
 .menu a{
     text-decoration: none;
-    color: white;
+    color:#fff;
     padding: 10px 30px;
     font-size: 1.5vw;
     transition: 0.4s;
@@ -48,7 +48,7 @@ nav{
     color: #fff;
 }
 .menu a:hover{
-    background-color: #f0f0f0;
+    background-color:rgba(124, 121, 121, 0.416);
 }
 button{
     background-color: rgba(255, 68, 0, 0.826);
@@ -88,11 +88,11 @@ button:hover{
 
 .bottom{
     display: flex;
-    height:40% ;
+    height:40vh ;
     width:100% ;
-    background-color: blue;
 }
 .bone{
+    display: absolute;
     padding: 30px;
     width: 25%;
     height: 100%;
@@ -107,12 +107,15 @@ button:hover{
 .btwo{
     width: 25%;
     height: 100%;
+    background-image: url(parasute.jpg);
     background-size: cover;
     background-position: center;
 }
 .bthree{
     width: 20%;
-    height: 100%;
+    height: inherit;
+    display: absolute;
+
 }
 .bfour{
     width: 30%;
@@ -131,7 +134,7 @@ button:hover{
     font-size: 15px;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:550px){
    .overlay .text{
     flex-direction: column;
     align-items: flex-start;
