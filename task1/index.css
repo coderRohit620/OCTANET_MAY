@@ -41,7 +41,7 @@ nav{
     border-radius: 25px;
 }
 .menu-icon{
-    display: flex;
+    display: none;
 }
 .menu-icon i{
     font-size: 25px;
